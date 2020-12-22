@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MusicWorld</title>
+    <link rel="stylesheet" href="Styles/ScheduleStyle.css">
+    <link rel="icon" href="Images/favicon.ico">
+</head>
+<body>
+<header>
+    <div id="logo">
+        <span>MusicWorld</span>
+    </div>
+    <div id="about">
+        <div id="NotAMenu">
+            <a href="index.html">Главная</a>
+            <a href="mostPopular.html">Популярные артисты</a>
+            <a href="schedule.html">Расписание концертов</a>
+            <a href="history.html">История Музыки</a>
+        </div>
+        <div id="Menu">
+           <button onclick="myFunction()" class="dropbtn">Меню</button>
+                <ul id="myDropdown" class="dropdown-content">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="mostPopular.html">Популярные артисты</a></li>
+                    <li><a href="schedule.html">Расписание концертов</a></li>
+                    <li><a href="history.html">История Музыки</a></li>
+                </ul>
+        </div>
+    </div>
+</header>
+<div id="content">
+    <h1>Расписание концертов на 2021 г.</h1>
+    <table>
+        <tr>
+            <th>Артист</th>
+            <th>Место</th>
+            <th>Время</th>
+            <th>Билеты</th>
+        </tr>
+        <tr>
+            <td data-label="Артист">JAY-Z</td>
+            <td data-label="Место">Лос Анджелес, США</td>
+            <td data-label="Время">28 июня  2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Travis Scott</td>
+            <td data-label="Место">Нью Йорк, США</td>
+            <td data-label="Время">12 мая 2021г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Тимати</td>
+            <td data-label="Место">Москва, Россия</td>
+            <td data-label="Время">10 сентября  2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Drake</td>
+            <td data-label="Место">Париж, Франция</td>
+            <td data-label="Время">25 июля  2021г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+           <td data-label="Артист">Drake</td>
+            <td data-label="Место">Берлин, Германия</td>
+            <td data-label="Время">25 июля  2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Lana Del Rey</td>
+            <td data-label="Место">Лондон, Великобритания</td>
+            <td data-label="Время">28 августа  2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Tyler</td>
+            <td data-label="Место">Монреаль, Канада</td>
+            <td data-label="Время">3 сентября 2021г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Gorillaz</td>
+            <td data-label="Место">Рим, Италия</td>
+            <td data-label="Время">15 июня 2021г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Скрилекс</td>
+            <td data-label="Место">Стокгольм, Швеция</td>
+            <td data-label="Когда?">10 сентября 2021г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Tommy</td>
+            <td data-label="Место">Варшава, Польша</td>
+            <td data-label="Время">30 октября 2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Jaden</td>
+            <td data-label="Место">Токио, Япония</td>
+            <td data-label="Время">8 ноября 2020г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Егор Крид</td>
+            <td data-label="Место">Пенза, Россия</td>
+            <td data-label="Время">7 декабря 2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Tommy</td>
+            <td data-label="Место">Таллин, Эстония</td>
+            <td data-label="Время">11 декабря 2021г.</td>
+            <td data-label="Билеты"><span>Билетов нет</span></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Fadir</td>
+            <td data-label="Место">Мадрид, Испания</td>
+            <td data-label="Время">20 ноября 2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+        <tr>
+            <td data-label="Артист">Kizaru</td>
+            <td data-label="Место">Киев, Украина</td>
+            <td data-label="Время">30 июня 2021г.</td>
+            <td data-label="Билеты"><a href="tickets.html">Забронировать билеты</a></td>
+        </tr>
+    </table>
+</div>
+<div class="back_up" onclick="up()">&#8679;</div>
+<script src="scripts/IndexScript.js"></script>
+</body>
+</html>
